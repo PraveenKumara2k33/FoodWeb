@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <a class="navbar-brand" href="#" id="navbar-brand">
+            <i class="fa-solid fa-utensils"> Restoran</i>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#SERVICE">SERVICE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#MENU">MENU</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#PAGES">PAGES</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#Booking">Booking</a></li>
+                        <li><a class="dropdown-item" href="#REVIEWS">REVIEWS</a></li>
+                        <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+            <button class="btn btn-warning text-white" type="button">BOOK A TABLE</button>
+        </div>
+    </nav>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <img src="Briyani.jpg" class="d-block w-100" style="height: 400px;">
+                <div class="carousel-caption text-center">
+                    <h2>Enjoy Our Delicious Meal</h2>
+                    <br>
+                    <p> Restoran is a restaurant, bar and coffee roasterylocated on Italy.
+                        <br> We have awesome recipes and the most talented chefs in town!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="kebab barbecues.jpg" class="d-block w-100" style="height: 400px;">
+                <div class="carousel-caption text-center">
+                    <h2>The Best Tasting Experience</h2>
+                    <br>
+                    <p> Restoran is a restaurant, bar and coffee roasterylocated on Italy.
+                        <br> We have awesome recipes and the most talented chefs in town!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="baked pizza.jpg" class="d-block w-100" style="height: 400px;">
+                <div class="carousel-caption text-center">
+                    <h2>WELCOME TO RESTRON </h2>
+                    <br>
+                    <p> come for the food. stay for the company</p>
+                    <br>
+                    <button class="btn btn-warning text-white" type="button">BOOK A TABLE</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+    </div>
+    <br>
+    <div class="container-fluid mt-5" id="About">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <img src="table1.jpg" class="d-block w-100" style="height: 200px;">
+                    </div>
+                    <div class="col-sm-4 ">
+                        <img src="table2.jpg " class="d-block w-100" style="height: 200px">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="table3.jpg" class="d-block w-100" style="height: 200px;" id="img3">
+                    </div>
+                    <div class="col-sm-5 ">
+                        <img src="table4.jpg " class="d-block w-100" style="height: 200px" id="img3">
+                    </div>
+                </div>
+                <hr class="d-sm-none ">
+            </div>
+            <div class="col-sm-5 ">
+                <h3> <span>About us-- </span>
+                </h3>
+                <h1>Welcome to
+                    <a class="navbar-brand" href="#" id="navbar-brand">
+                        <i class="fa-solid fa-utensils"></i>
+                    </a> Restoran
+                </h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.
+                    <br> <br>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit. sed stet lorem sit clita duo justo magna dolore erat amet </p>
+                <h4><span>15+</span> years experiences
+                    <br> <span>50</span> Master chef's
+                </h4>
+                <button class="btn btn-warning text-white" type="button" id="button">Read More</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container mt-3" id="SERVICE">
+        <h3 class="cent">
+            <span>--SERVICE-- </span>
+        </h3>
+        <br>
+        <div class="row gap-2">
+            <div class="card" id="card">
+                <i class="fa-solid fa-user-tie" id="icon"></i>
+                <div class="card-body">
+                    <h4 class="card-title"><small>Master chef's</small></h4>
+                    <p class="card-text">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+
+            <div class="card" id="card">
+                <i class="fa-solid fa-utensils" id="icon"></i>
+                <div class="card-body">
+                    <h4 class="card-title"><small>Quality Food</small></h4>
+                    <p class="card-text">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+            <div class="card" id="card">
+                <i class="fa-solid fa-cart-shopping" id="icon"></i>
+                <div class="card-body">
+                    <h4 class="card-title"><small>Online order</small></h4>
+                    <p class="card-text">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+            <div class="card" id="card">
+                <i class="fa-solid fa-headset" id="icon"></i>
+                <div class="card-body">
+                    <h4 class="card-title"><small>24/7 Service</small></h4>
+                    <p class="card-text">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3" id="MENU">
+        <h3 class="cent"><span><u>--Food Menu--</u></span></h3>
+        <h1 class="cent">Most Popular Items</h1>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <img src="table3.jpg" class="d-block w-50" alt="">
+                    <div class="col-sm-4">
+                        <h4 class="card-top">Chicken Briyani $115
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <img src="table3.jpg" class="d-block w-50" alt="">
+                    <div class="col-sm-4">
+                        <h4 class="card-top">Chicken Briyani $115
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <img src="table3.jpg" class="d-block w-50" alt="">
+                    <div class="col-sm-4">
+                        <h4 class="card-top">Chicken Briyani $115
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <img src="table3.jpg" class="d-block w-50" alt="">
+                    <div class="col-sm-4">
+                        <h4 class="card-top">Chicken Briyani $115
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <img src="table3.jpg" class="d-block w-50" alt="">
+                    <div class="col-sm-4">
+                        <h4 class="card-top">Chicken Briyani $115
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <img src="table3.jpg" class="d-block w-50" alt="">
+                    <div class="col-sm-4">
+                        <h4 class="card-top">Chicken Briyani $115
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <img src="table3.jpg" class="d-block w-50" alt="">
+                    <div class="col-sm-4">
+                        <h4 class="card-top">Chicken Briyani $115
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <img src="table3.jpg" class="d-block w-50" alt="">
+                    <div class="col-sm-4">
+                        <h4 class="card-top">Chicken Briyani $115
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <img src="table3.jpg" class="d-block w-50" alt="">
+                    <div class="col-sm-4">
+                        <h4 class="card-top">Chicken Briyani $115
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <img src="table3.jpg" class="d-block w-50" alt="">
+                    <div class="col-sm-4">
+                        <h4 class="card-top">Chicken Briyani $115
+                        </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid mt-4" id="Booking">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="table1.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="col-sm-6">
+                <form>
+                    <div class="mb-5">
+                        <input type="text" class="form-control" aria-describedby="FirstName" placeholder="Enter Your Name">
+                    </div>
+                    <div class="mb-5">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Address">
+                    </div>
+                    <div class="mb-5">
+                        <input type="text" class="form-control" aria-describedby="date" placeholder="Date & Time">
+                    </div>
+                    <div class="mb-5">
+                        <input type="text" class="form-control" aria-describedby="MobileNumer" placeholder="Enter Your Mobile Number">
+                    </div>
+                    <button class="btn btn-warning text-white" type="button">Submit</button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid reviews-container mb-5 pb-5" id="REVIEWS">
+
+            <div class="row mt-5 mb-5">
+                <span class="menutitle d-flex justify-content-around">REVIEWS</span>
+            </div>
+
+            <div class="row">
+
+                <div class="col d-flex justify-content-around">
+                    <div class="card mb-4" style="width: 18rem;">
+                        <img src="1.jpg" class="card-img-top review-img" alt="..." id="img4">
+                        <div class="card-body card-body2">
+                            <h5 class="card-title">APK</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facilis fuga deleniti.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-around border-0">
+                    <div class="card  mb-4" style="width: 18rem;">
+                        <img src="2.jpg" class="card-img-top review-img" alt="..." id="img4">
+                        <div class="card-body card-body2">
+                            <h5 class="card-title">Pk</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facilis fuga deleniti.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-around">
+                    <div class="card mb-4" style="width: 18rem;">
+                        <img src="3.jpg" class="card-img-top review-img" alt="..." id="img4">
+                        <div class="card-body card-body2">
+                            <h5 class="card-title">PaveenKumar</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facilis fuga deleniti.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-around">
+                    <div class="card mb-4" style="width: 18rem;">
+                        <img src="2.jpg" class="card-img-top review-img" alt="..." id="img4">
+                        <div class="card-body card-body2">
+                            <h5 class="card-title">Edward</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facilis fuga deleniti.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid bg-dark text-secondary p-4 pe-4  footer-container">
+
+            <div class="row">
+                <div class="col">
+                    <span><i class="fa-solid fa-utensils"> Restoran</i></span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, veniam.</p>
+                    <h5 class="mb-3 social-media">Social Media</h5>
+                    <div class="footer-icons ms-auto">
+                        <span class="blue">
+                            <i class="fa-brands fa-facebook"></i>
+                        </span>
+                        <span class="pink">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                        <span class="green">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </span>
+                        <span class="violet">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="col" id="contact">
+                    <h5 class="mb-3">Contact Us</h5>
+                    <p><span>Address</span> : agram street, cuddalore dt, Tamil Nadu</p>
+                    <p><span>Mail</span> : apk@gmail.com</p>
+                    <p><span>Phone</span> : +9154793892</p>
+                </div>
+                <div class="col-2 quick-links">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <div class="links">
+                        <a class="nav-link" style="margin-top:-10px;" href="#">Home</a>
+                        <a class="nav-link" href="#About">About</a>
+                        <a class="nav-link" href="#MENU">Menu</a>
+                        <a class="nav-link" href="#SERVICE">Services</a>
+                        <a class="nav-link" href="#REVIEWS">Review</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h5 class="mb-3">Location</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.4698268083166!2d80.17538597463339!3d13.06938321272783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261504145fe7d%3A0x58810f43c3a748ae!2sDr.%20M.G.R.%20Educational%20And%20Research%20Institute%20university!5e0!3m2!1sen!2sin!4v1692942978787!5m2!1sen!2sin"
+                        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+
+</body>
+
+</html>
